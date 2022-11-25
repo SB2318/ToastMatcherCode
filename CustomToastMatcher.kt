@@ -9,7 +9,7 @@ import org.hamcrest.TypeSafeMatcher
 /**
  * Author: http://www.qaautomated.com/2016/01/how-to-test-toast-message-using-espresso.html
  */
-class ToastMatcher : TypeSafeMatcher<Root?>() {
+class CustomToastMatcher : TypeSafeMatcher<Root?>() {
 
     override fun describeTo(description: Description?) {
         description?.appendText("is toast")
